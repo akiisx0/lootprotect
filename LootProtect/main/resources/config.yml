@@ -1,0 +1,12 @@
+# Duration in seconds
+protection-time: 30
+
+# Messages
+messages:
+  loot-protected: "&e🗡 Loot Protected! You have &c%time% &eseconds to collect the loot."
+  cannot-loot: "&cOnly &e%killer% &ccan loot this for &a%time% &cmore seconds!"
+
+# Holograms
+hologram:
+  main-text: "&6&l🗡 Loot Protected &7(&c%time%s remaining&7) &7Killer: &a%killer%"
+  item-text: "&c⛔ &7Item Protected &c%time%s"

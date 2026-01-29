@@ -1,0 +1,20 @@
+name: LootProtect
+version: '1.0'
+main: com.akiisx.lootprotect.LootProtect
+api-version: '1.21'
+author: akiisx
+description: Protect player loot for killer only
+
+commands:
+  lootprotect:
+    description: Reload configuration
+    aliases: [lp]
+    usage: /<command> reload
+
+permissions:
+  lootprotect.admin:
+    description: Allows reloading configuration
+    default: op
+  lootprotect.bypass:
+    description: Allows bypassing loot protection
+    default: op
